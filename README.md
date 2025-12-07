@@ -81,8 +81,8 @@ To ensure local Trino can resolve Hadoop nodes:
 
 Add:
 
-	172.20.0.2 namenode
-	172.20.0.3 datanode
+	<ip-namenode> namenode
+	<ip-datanode> datanode
 	...
 
 3. Connecting Trino to Hive
